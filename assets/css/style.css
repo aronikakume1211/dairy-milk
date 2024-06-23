@@ -201,7 +201,8 @@ img.logo-img {
 
 
 /* -------------- Hero CSS -------------- */
-.hero-section .section-content {
+.hero-section .section-content,
+.why_drink_milk .section-content {
     border-radius: 25px;
     background-color: rgba(247, 243, 254, 0);
     box-shadow: 0 0 40.5px rgba(24, 143, 224, 0.21);
@@ -502,5 +503,612 @@ span.step {
 @media screen and (max-width: 767px) {
     .box-item:after {
         background-color: transparent;
+    }
+}
+
+/* our_farming_friend */
+.our_farming_friend_image {
+    width: auto;
+    height: 377px;
+}
+
+@media screen and (max-width: 767px) {
+    .our_farming_friend_image {
+        height: auto;
+    }
+
+    .our_farming_friend .row {
+        flex-direction: column-reverse !important;
+    }
+}
+
+.our_farming_friend_contents h2,
+.pure_certified_container h2,
+.evidence_for_trust h2 {
+    /* Indian cow: Our Farming Friend  */
+
+    /* width: 379px; */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #5B5B5B;
+
+}
+
+.our_farming_friend_contents p,
+.pure_certified_container p {
+    /* Indian Gir cows not only give us A2 Milk,  but also help nurtur */
+
+    width: 275px;
+
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #5B5B5B;
+    margin-bottom: 50px;
+
+}
+
+.pure_certified_container ul li {
+
+    /* width: 275px; */
+
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #5B5B5B;
+}
+.pure_certified_container ul li::marker{
+    color: #6EC1E4;
+    height: 12px;
+    width: 12px;
+    min-height: 12px;
+    min-width: 12px;
+    font-size: 18px;
+}
+
+.pure_certified_container p {
+    min-width: 385px;
+    text-align: left;
+}
+
+.evidence_for_trust p {
+    width: 75%;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.evidence_for_trust img {
+    margin-top: 30px;
+    width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    .evidence_for_trust p {
+        width: 100%;
+    }
+
+    .evidence_for_trust img {
+        width: 100%;
+    }
+
+    .our_farming_friend_contents p,
+    .pure_certified_container p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.why_drinkmilk h2 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.why_drinkmilk .A2 {
+    font-size: 297px;
+    letter-spacing: 5px;
+    line-height: 231px;
+    color: #6ec1e4;
+    text-align: left;
+
+}
+
+.why_drinkmilk p {
+    font-size: 44px;
+    letter-spacing: 1px;
+    color: rgba(92, 92, 92, 1);
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.why_drink_milk .section-content {
+    padding-top: 50px !important;
+}
+
+.benefits {
+    margin-top: -25px;
+    margin-right: 40px;
+}
+
+.nutrition_top {
+    display: flex;
+}
+
+.nutrition_top .contents p,
+.nutrition_bottom .contents p {
+
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #5B5B5B;
+    margin-bottom: 20px;
+
+}
+
+.nutrition_bottom {
+    margin-top: 30px;
+}
+
+.nutrition_top .contents h3,
+.nutrition_bottom .contents h3 {
+
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.nutrition_bottom .title {
+
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.nutrition_facts h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.nutrition_facts td {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #5B5B5B;
+    padding-top: 15px;
+
+}
+
+.nutrition_facts td:nth-child(2) {
+    text-align: right;
+}
+
+.nutrition_facts tr {
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 767px) {
+
+    .why_drink_milk .section-content,
+    .nutrition_top,
+    .nutrition_bottom {
+        flex-direction: column;
+    }
+
+    .why_drinkmilk .A2 {
+        font-size: 220px;
+    }
+
+    .benefits {
+        margin-top: -50px;
+        margin-right: 0;
+        font-size: 24px;
+    }
+
+    .nutrition_bottom .title {
+        font-size: 20px;
+    }
+
+
+
+}
+
+.benefits_titles h2 {
+
+    font-size: 190px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    color: #6EC1E4;
+}
+
+.benefits_titles p {
+
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: -50px;
+}
+
+.benefits_contents {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.benefits_contents li {
+    width: 200px;
+    gap: 10px;
+    /* height: 200px; */
+
+    border-color: rgba(128, 128, 128, 1);
+    border-width: 2.0834553440702783px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.benefits_contents li img {
+    width: 100px;
+    height: 100px;
+}
+
+.benefits_contents li p {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .benefits_container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits_container_fluid {
+        padding: 20px 10px !important;
+    }
+
+    .benefits_contents {
+        padding: 0;
+        gap: 28px !important;
+    }
+
+    .benefits_contents li {
+        width: 45%;
+        padding: 10px;
+    }
+
+    .benefits_contents li img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .benefits_contents li p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .benefits_contents li {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+
+.content_icons ul {
+    list-style: none;
+}
+
+.content_icons ul li {
+    width: 200px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.content_icons ul li img {
+    width: 100px;
+    height: 100px;
+}
+
+.content_icons ul li p {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content_icons ul {
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .content_icons ul li {
+        width: 45%;
+        padding: 10px;
+    }
+
+    .content_icons ul li img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .content_icons ul li p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .content_icons li {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+/* Contact section */
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: white;
+}
+
+.contact_container_fluid {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    padding: 100px 0px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(6, 30, 225, 1) 0%, rgba(38, 244, 255, 0.81) 100%);
+}
+
+.contact_container_fluid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    /* Adjust height to control the curve's depth */
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 1) 100%);
+    clip-path: polygon(0 56%, 17% 24%, 23% 17%, 36% 5%, 48% 0, 60% 5%, 72% 13%, 82% 26%, 100% 54%, 100% 0, 0 0)
+        /* clip-path: polygon(0 85%, 29% 22%, 31% 17%, 35% 11%, 54% 1%, 60% 5%, 72% 13%, 82% 26%, 100% 54%, 100% 0, 0 0); */
+}
+
+.contact_right .image_container {
+
+    border-radius: 529px 192px 192px 192px;
+    filter: drop-shadow(0 0 62.5px rgba(0, 0, 0, 0.25));
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 444px;
+    height: 444px;
+    padding-left: 129px;
+    padding-top: 50px;
+}
+
+.contact_right img {
+    width: 300px;
+}
+
+.contact_left h2 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.contact_left h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 47px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact_left h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 37px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact_left p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact_us_link {
+    padding: 10px 32px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 102px;
+    color: #0473ed;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+.footer {
+    height: auto;
+    background-color: #219ae0;
+    color: #ffffff
+}
+
+.footer h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Aventra";
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.footer ul li a {
+
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+}
+
+.footer ul li a::after {
+    content: '';
+    display: block;
+    background: #FBDBA9;
+    height: 3px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 0;
+    transition: width 0.15s ease-in-out;
+}
+
+.footer ul li:hover a::after {
+    width: 100%;
+}
+
+.footer_bottom {
+    background-color: #d5ebff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #1e5174;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+
+.footer_bottom a {
+    color: #1e5174;
+    text-decoration: none;
+}
+
+.footer_bottom img {
+    width: 21px;
+    height: 21px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_container_fluid {
+        background: linear-gradient(180deg, rgba(6, 30, 225, 1) 0%, rgba(38, 244, 255, 0.81) 100%);
+        border-radius: 134px 0px 0px 0px;
+    }
+
+    .contact_container_fluid::before {
+        content: "";
+        background: rgba(6, 30, 225, 1);
+
+    }
+
+    .contact_right .image_container {
+        width: 100%;
+        padding-left: 90px;
+    }
+
+    .contact_right {
+        width: 100%;
+    }
+
+    .contact_left h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .contact_left h3 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .contact_left p {
+        font-size: 14px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .footer ul {
+        gap: 8px 20px;
     }
 }
